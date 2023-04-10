@@ -1,0 +1,704 @@
+body {
+margin: 0;
+background-color: white;
+font-family: 'Hind', sans-serif;
+}
+
+img {
+   max-width: 100px;
+   height: auto;
+    
+   }
+
+
+section {
+
+background-color: white;
+margin: 0;
+
+
+}
+
+header {
+display: flex;
+justify-content: space-between;
+align-items: center;
+padding: 0;
+border-left: 10px;
+border-bottom: 0;
+border-top: 10px;
+border-right: 10px;
+border-color: #436cd6;
+border-style: solid;
+margin-bottom: 50px;
+
+}
+
+
+header h2 {
+    font-size: 48px;
+    font-weight: 500; 
+    margin: 0;
+    padding-left: 50px;
+    text-align: center;
+    vertical-align:middle;
+}
+
+
+ header ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    padding-right: 35px;
+    display: flex; 
+    gap: 100px;
+    font-size: 32px;
+    font-weight: 400;
+ }
+
+
+ #rectangle4{
+    width: 900px;
+    height: 5px;
+    background: black;
+   
+ }
+
+
+
+ #rectangle3{
+    width:40px;
+    height: 5px;
+    background: black;
+    
+ }
+
+
+ #rectangle2{
+    width: 1880px;
+    height: 10px;
+    background: #436cd6;
+    margin-top: 0;
+    background: linear-gradient(270deg, rgba(67, 108, 214, 0) 0%, #436CD6 49.79%, rgba(67, 108, 214, 0) 100%);
+   
+    /* inserito da figma*/
+ }
+
+
+
+section p {
+    font-size: 30px;
+    letter-spacing: 2.5px;
+    align-items: center;
+    align-content: center;
+    font-weight: 400;
+    padding-left: 10px;
+    padding-right: 30px;
+}
+
+
+
+section p,  div.prima, div.seconda{
+
+display: inline-block;
+
+}
+
+section  div.prima, div.seconda, div p {
+
+vertical-align: middle;
+
+}
+
+div.blocco {
+
+   display: inline-block;
+   margin: 10px;
+
+}
+
+
+
+ #rectangle{
+    width: 556px;
+    height: 60px;
+    background: #436cd6;
+    border-top-right-radius: 120px;
+    border-bottom-right-radius: 120px;
+    /* justify-content: center;
+    align-items: center;
+    display: flex; */
+
+}
+
+
+section.line {
+
+padding-top: 20px;
+
+}
+
+ section.line h2 {
+ font-size: 36px;
+ font-weight: 600;
+ text-indent: 55px;
+ letter-spacing: 2.5px
+ 
+ 
+}
+
+
+div.vuoto {
+display: flex;
+margin: 0;
+padding: 0;
+background-color: white;
+
+}
+
+#blocco1 {
+display: flex;
+width: 200px;
+height: 60px;
+background: #436cd6;
+border-top-right-radius: 120px;
+border-bottom-right-radius: 120px;
+justify-self: center;
+align-items: center;
+justify-content: center;
+
+}
+
+
+
+.titoloslide1 h2{
+display: flex;
+font-size: 32px;
+font-weight: 600;
+margin-right: 15px;
+}
+
+
+/*=====================================================================================*/
+
+.griglia {
+   display: grid;
+  background: white;
+  grid-auto-flow: column;
+  grid-template-columns: 25px 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  grid-gap: 1px;
+  height: 600px;
+}
+
+
+
+main {
+width: auto;
+max-width: max-content;
+   background: white;
+}
+
+main div {
+   background: white;
+  
+}
+
+
+
+.terzo {
+   display: flex;
+   background: white;
+   justify-content: space-between;
+   align-items: center;
+}
+
+.quarto {
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   background: white;
+}
+.quinto {
+   display: flex;
+   background: mediumslateblue;
+   justify-content: center;
+   align-self: center;
+   /* grid-row-start: 1;
+   grid-row-end: 3; */
+   justify-self: stretch;
+   grid-row: 2 span;
+   height: 600px
+   
+}
+
+.ph {
+   height: 100%; 
+   object-fit: cover;
+   grid-row-start: 1;
+   grid-row-end: 3;
+   flex-shrink: 0;
+   min-width: 100%;
+   min-height: 100%
+}
+
+
+.sesto {
+
+   background: teal;
+}
+
+.terzo img  {
+   max-width: 100px; 
+   height: 100px;
+   margin: 60px;
+}
+
+.terzo p {
+   margin-top: 64px;
+   margin-right: 350px;
+   
+}
+
+
+.quarto img  {
+   max-width: 100px; 
+   height: 100px;
+   margin: 60px;
+}
+
+.quarto p {
+   margin-top: 64px;
+   margin-right: 300px;
+   
+}
+
+
+
+
+
+div.ph img {
+   max-width: 30%; 
+   height: 100%; 
+   object-fit: cover; 
+}
+
+
+
+#rectangle5 {
+
+   width: 15px;
+   height: 500px;
+   background: #436cd6;
+   border-top-right-radius: 120px;
+   border-bottom-right-radius: 120px;
+   
+
+}
+
+.primo {
+   grid-row: 2 span;
+   display: flex;
+   align-self: center;
+}
+
+
+
+/*============================================================================================*/
+
+.vuoto2 {
+
+   display: flex;
+   margin: 0;
+   padding: 0;
+   background-color: rgb(255, 255, 255);
+
+}
+
+
+/*========================= seconda slide ==================================================*/
+.s2 {
+
+margin-top: 20px;
+}
+
+
+#blocco2 {
+   display: flex;
+   width: 200px;
+   height: 60px;
+   background: #436cd6;
+   align-items: center;
+   justify-content: center;
+   border-bottom-left-radius: 120px;
+   border-top-left-radius: 120px;
+
+   }
+   
+   
+   
+   .titoloslide2 h2{
+   display: flex;
+   font-size: 32px;
+   font-weight: 600;
+   margin-right: 15px;
+   }
+   
+
+.titoloslide2 {
+display: flex;
+justify-content: end;
+justify-self: right;
+justify-items: right;
+}
+
+
+.griglia2 {
+  display: grid;
+  background: white;
+  grid-auto-flow: column;
+  grid-template-columns: 1fr 1fr 1px;
+  grid-template-rows: 1fr 1fr;
+  grid-gap: 1px;
+  height: 600px;
+}
+
+.primo2 {
+   grid-row: 2 span;
+   background: rosybrown;
+}
+
+.ph2 {
+   height: 100%; 
+   object-fit: cover;
+   grid-row-start: 1;
+   grid-row-end: 3;
+   flex-shrink: 0;
+   min-width: 100%;
+   min-height: 100%
+}
+
+.terzo2 p {
+   margin-top: 64px;
+   margin-right: 285px;
+   
+}
+
+.terzo2 {
+   background: crimson;
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   background: white;
+
+}
+.terzo2 img  {
+   max-width: 100px; 
+   height: 100px;
+   margin: 60px;
+}
+
+.quarto2 p {
+   margin-top: 64px;
+   margin-right: 300px;
+   
+}
+
+
+.quarto2{
+   background: salmon;
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   background: white;
+}
+
+.quarto2 img  {
+   max-width: 100px; 
+   height: 100px;
+   margin: 60px;
+}
+.quinto2 {
+   display: flex;
+   align-self: center;
+   background: rgb(104, 104, 230);
+
+}
+
+#rectangle6 {
+
+   width: 15px;
+   height: 500px;
+   background: #436cd6;
+   border-top-left-radius: 120px;
+   border-bottom-left-radius: 120px;
+   grid-row: 2 span;
+
+}
+
+
+.sesto2 {
+
+background: chocolate;
+
+}
+
+/*==============================================================================*/
+
+#blocco3 {
+   display: flex;
+   width: 200px;
+   height: 60px;
+   background: #436cd6;
+   border-top-right-radius: 120px;
+   border-bottom-right-radius: 120px;
+   justify-self: center;
+   align-items: center;
+   justify-content: center;
+   
+   }
+   
+   
+   
+   .titoloslide3 h2{
+   display: flex;
+   font-size: 32px;
+   font-weight: 600;
+   margin-right: 15px;
+   }
+   
+/*==============================================================================*/
+
+
+.griglia3 {
+   display: grid;
+  background: white;
+  grid-auto-flow: column;
+  grid-template-columns: 25px 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  grid-gap: 1px;
+  height: 600px;
+}
+
+
+
+
+
+.terzo3 {
+   display: flex;
+   background: white;
+   justify-content: space-between;
+   align-items: center;
+}
+
+.quarto3 {
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   background: white;
+}
+.quinto3 {
+   display: flex;
+   background: mediumslateblue;
+   justify-content: center;
+   align-self: center;
+   /* grid-row-start: 1;
+   grid-row-end: 3; */
+   justify-self: stretch;
+   grid-row: 2 span;
+   height: 600px
+   
+}
+
+.ph3 {
+   height: 100%; 
+   object-fit: cover;
+   grid-row-start: 1;
+   grid-row-end: 3;
+   flex-shrink: 0;
+   min-width: 100%;
+   min-height: 100%
+}
+
+
+.sesto3 {
+
+   background: teal;
+}
+
+.terzo3 img  {
+   max-width: 100px; 
+   height: 100px;
+   margin: 60px;
+}
+
+.terzo3 p {
+   margin-top: 64px;
+   margin-right: 275px;
+   
+}
+
+
+.quarto3 img  {
+   max-width: 100px; 
+   height: 100px;
+   margin: 60px;
+}
+
+.quarto3 p {
+   margin-top: 64px;
+   margin-right: 300px;
+   
+}
+
+
+
+
+
+div.ph3 img {
+   max-width: 30%; 
+   height: 100%; 
+   object-fit: cover; 
+}
+
+
+
+#rectangle7 {
+
+   width: 15px;
+   height: 500px;
+   background: #436cd6;
+   border-top-right-radius: 120px;
+   border-bottom-right-radius: 120px;
+   
+
+}
+
+.primo3 {
+   grid-row: 2 span;
+   display: flex;
+   align-self: center;
+}
+
+
+/*==============================================================================*/
+
+
+
+#foot {
+   display: flex;
+   position: absolute;
+   width: 1880px;
+   height: 200px;
+   left: 0px;
+   top: 2705px;
+   background: #436CD6;
+   background: linear-gradient(180deg, rgba(67, 108, 214, 0) 11.48%, #436CD6 100%);
+   border-width: 0px 10px 10px 10px;
+   border-style: solid;
+   border-color: #436CD6;
+}
+
+
+.social h2 {
+   display: flex;
+   font-size: 48px;
+   font-weight: 500;
+   position: absolute;
+   width: 300px;
+   height: 85px;
+   left: 50px;
+   top: 50px;
+}
+
+.social {
+
+   display: flex;
+   padding: 0;
+   justify-content: center;
+   
+}
+
+.social ul {
+   position: absolute;
+   width: 347px;
+   height: 106px;
+   left: 1520px;
+   top: 50px;
+   margin-bottom: 5px;
+   font-size: 20px;
+   font-weight: 500;
+   list-style-position: outside;
+   list-style-type: disc; 
+   align-items: center;
+   justify-content: center
+
+
+}
+
+
+/* 
+
+#rectangle6 {
+
+   width: 15px;
+   height: 500px;
+   background: #436cd6;
+   border-top-left-radius: 120px;
+   border-bottom-left-radius: 120px;
+   
+
+}
+
+
+
+
+
+main {
+
+  display: grid;
+  grid-template-rows: 1fr 1fr ;
+  grid-template-columns: 1fr 1fr 1fr;
+  justify-items:right;
+  place-items: stretch;
+  place-items: end;
+
+}
+
+.testo1 {
+
+   background: rebeccapurple;
+   grid-column-start: 1;
+   grid-column-end: 3;
+}
+
+.imm1 {
+grid-column-start: 1;
+background: green;
+
+}
+
+
+img.ph {
+   grid-column-start: 2;
+   grid-column-end: 2;
+   height: auto;
+   max-width: 400px;
+   background: sienna;
+   
+}
+
+
+ #rectangle5 {
+
+   width: 15px;
+   height: 500px;
+   background: #436cd6;
+   border-top-right-radius: 120px;
+   border-bottom-right-radius: 120px;
+   
+
+}  */
+
+
+
